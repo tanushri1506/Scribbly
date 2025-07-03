@@ -1,0 +1,52 @@
+.sidebar {
+  width: 200px;
+  background-color: #d7d1d9;
+  border-right: 2px solid #ddd;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.sidebar h3 {
+  margin-bottom: 15px;
+  color: #775993;
+}
+
+.sidebar label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #775993;
+}
+
+.sidebar select, .sidebar input[type="range"], .sidebar .btn{
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: #775993;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn{
+  padding-top: 10px;
+}
+
+.end-btn {
+  padding: 12px 30px;
+  background-color: #9b4ce5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 180px;
+}
+
+.end-btn:hover {
+  background-color: #512c74;
+}
